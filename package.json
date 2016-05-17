@@ -1,6 +1,6 @@
 {
   "name": "atom-plugin-command-line",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Run a child process within an Atom plugin. Returns a promise with the output.",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/ShMcK/atom-plugin-command-line/issues"
   },
-  "homepage": "https://github.com/ShMcK/atom-plugin-command-line#readme"
+  "homepage": "https://github.com/ShMcK/atom-plugin-command-line#readme",
+  "dependencies": {
+    "node-file-exists": "^1.0.0"
+  }
 }
