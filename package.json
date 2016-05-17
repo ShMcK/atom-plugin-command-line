@@ -1,6 +1,6 @@
 {
   "name": "atom-plugin-command-line",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run a child process within an Atom plugin. Returns a promise with the output.",
   "main": "index.js",
   "scripts": {
